@@ -7,4 +7,7 @@ urlpatterns = [
     path("about", views.about, name='about'),
     path("services", views.services, name='services'),
     path("contact", views.contact, name='contact'), 
+    path("pdfengine", views.pdfengine, name='contact'), 
+    path("drive_link", views.drive_link, name='drivelink'), 
+    path("youtube_link", views.youtube_link, name='youtube_link'), 
 ]

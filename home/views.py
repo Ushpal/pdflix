@@ -19,6 +19,20 @@ def services(request):
     return render(request, 'services.html')
  
 
+def pdfengine(request):
+    # latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    context = {'latest_question_list': 'latest_question_list'}
+    return render(request, 'pdf.html', context)
+
+
+ 
+def youtube_link(request):
+    return render(request, 'youtube.html')
+
+ 
+def drive_link(request):
+    return render(request, 'drive.html')
+
 def contact(request):
     if request.method == "POST":
         name = request.POST.get('name')

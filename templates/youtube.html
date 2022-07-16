@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %}youtube_link{% endblock title %}
+
+{% block body %}
+<!--
+<div class="container-fluid px-0 mb-3" >
+    {% comment %} <img src="https://source.unsplash.com/1200x400/?phone,contact" class="d-block w-100 mx-0" alt="..."> {% endcomment %}
+</div>
+<div class="container mb-3 py-4">
+    <h1 class="text-center">dont Contact Us</h1>
+    <form method="post" action="/contact">
+    {% csrf_token %}
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email">
+        </div>
+        
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="phone" class="form-control" id="phone" name="phone" placeholder="Enter Your Mobile Number">
+        </div>      
+        
+        <div class="form-group">
+            <label for="desc">Suggestions!!!</label>
+            <textarea class="form-control" id="desc" rows="3" name="desc"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+</div>
+-->
+<p style="text-align:center;"><b>COURSE ON ARTIFICIAL INTELLIGENCE</b></p>
+<div class="col-auto" style="text-align:center;width: 300px;margin: 0 auto;">
+    <button type="submit" class="btn btn-primary mb-3"><a href="https://www.youtube.com/watch?v=JMUxmLyrhSk"><P style="color: white;">Artificial Intelligence</p></a></button>
+  </div>
+
+  <p style="text-align:center;"><b>COURSE ON DATABASE MANAGEMENT SYSTEM</b></p>
+<div class="col-auto " style="text-align:center;width: 300px;margin: 0 auto;">
+    <button type="submit" class="btn btn-primary mb-3"><a href="https://www.youtube.com/watch?v=4cWkVbC2bNE"><p style="color: white;">DBMS</p></a></button>
+  </div>
+
+
+  <p style="text-align:center;"><b>COURSE ON NETWORKING</b></p>
+<div class="col-auto" style="text-align:center;width: 300px;margin: 0 auto;">
+    <button type="submit" class="btn btn-primary mb-3"><a href="https://www.youtube.com/watch?v=L3ZzkOTDins"><p style="color: white;">NETWORKING</p></a></button>
+  </div>
+
+  <p style="text-align:center;">COURSE ON OPERATING SYSTEM<b></b></p>
+<div class="col-auto" style="text-align:center;width: 300px;margin: 0 auto;">
+    <button type="submit" class="btn btn-primary mb-3"><a href="https://www.youtube.com/watch?v=mXw9ruZaxzQ"><p style="color: white;">OPERATING SYSTEM</p></a></button>
+  </div>
+
+{% endblock body %}
